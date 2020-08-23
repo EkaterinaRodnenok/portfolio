@@ -1,6 +1,43 @@
-.test {
-    background: green;
-    height: 100px;
-    width: 100%;
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding:
+}
+.about-me {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project {
+    padding: 100px 0;
+    background-color: #34547A;
+}
+.project-item {
+    width: 16.6%;
+    float:left;
+    color: white;
+}
+.project-content {
+    width: 50%;
     float: left;
+}
+.project-ikon {
+    float: left;
+    margin-right: 10px;
+}
+.project-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.project-description {
+    font-size: 16px;
 }
