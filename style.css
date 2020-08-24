@@ -3,16 +3,52 @@
 }
 body {
     margin: 0;
-    padding:
+}
+
+.menu {
+    width: 60%;
+    margin: 0 auto;
+    padding-top:57px;
+}
+.logo {
+    color: #34547A;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    display: inline;
+}
+.menu-list {
+    display: inline;
+    margin-left:25%;
+}
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    display: inline;    
 }
 .about-me {
-    font-size: 32px;
+    width: 60%;
+    margin: 0 auto;
+}
+.about-me-title {
     font-weight: 500;
+    font-size: 32px;
     line-height: 37px;
     text-align: center;
+    color: #000000;
+}
+.about-me-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
 }
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
 }
