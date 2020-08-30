@@ -79,3 +79,44 @@ body {
 .project-description {
     font-size: 16px;
 }
+
+
+
+html {
+    font-size: 20px;
+}
+
+svg {
+    fill: red;
+    stroke: lime;
+}
+
+svg:hover {
+    fill: black;
+}
+
+.test {
+  
+    width: 100vw;
+    height: 100vh;
+    background-image: url("4b1d11587776cdda3423684ff74f2660.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:yellowgreen;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+.test1 {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.top {
+    position: relative;
+    background: blueviolet;
+    width: 100px;
+}
