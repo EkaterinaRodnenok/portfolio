@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-}
 @font-face {
     font-family: "kronaone";
     src: url('./fonts/KronaOne.ttf')
@@ -13,55 +10,73 @@ body {
 
 
 .menu {
-    width: 60%;
-    margin: 0 auto;
-    padding-top:57px;
-}
-.design-and-verstka {
-    padding-top: 100px;
+    width: 1920px;
+    height: 100px;
 }
 .logo {
-    color: #34547A;
-    font-weight: normal;
+    width: 96px;
+    height: 60px;
+    left: 402px;
+    top: 50px;
     font-size: 48px;
     line-height: 60px;
     text-align: center;
-    display: inline;
+    color: #34547A;
+    margin: 35px;
 }
 .menu-list {
-    display: inline;
-    margin-left:25%;
+    width: 611px;
+    height: 16px;
+    left: 500px;
+    top: 72px;  
+    margin: 0 auto;
+    overflow: hidden; 
+    position: absolute;
 }
 .menu-item {
+    width: 16.6%;
+    float:left;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    padding-left: 10px;
-    display: inline;    
+    color: #000000;
+}
+.design-and-verstka {
+    padding-top: 100px;
+    width: 1920px;
+    height: 400px;
+    position: relative;
+}
+.leftblock {
+    width: 50%;
+    height: 0px;
+    margin-left:100px;
+}
+.rightblock {
+    width: 50%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    left: 720px;
 }
 .design {
-    position: absolute;
     width: 541px;
     height: 45px;
-    left: 650px;
-    top: 125px;
     font-weight: 500;
     font-size: 48px;
-    line-height: 79px;
+    line-height: 79px; 
+    
 }
 .text {
-    position: absolute;
-    width: 540px;
+    position: relative;
+    width: 500px;
     height: 67px;
+    top: 40px;
     font-size: 16px;
     line-height: 26px;
-    float: right;
-    left: 600px;
-    top: 200px;
-    text-align: center;
+    color: #727272;
 }
-.written {
+.writen {
     position: absolute;
     width: 225px;
     height: 65px;
@@ -71,14 +86,14 @@ body {
     letter-spacing: 0.1em;
     background-color: #34547A;
     color: white;
-    top: 300px;
-    left: 600px;
+    top: 200px;
 }
 
 
 .about-me {
     width: 60%;
     margin: 0 auto;
+    margin-top: 150px;
 }
 .about-me-title {
     font-weight: 500;
@@ -86,6 +101,7 @@ body {
     line-height: 37px;
     text-align: center;
     color: #000000;
+
 }
 .about-me-text {
     font-size: 16px;
@@ -103,6 +119,7 @@ body {
 .project {
     padding: 100px 0;
     background-color: #34547A;
+    margin-top: 150px;
 }
 .project-item {
     width: 16.6%;
@@ -126,10 +143,32 @@ body {
     font-size: 16px;
 }
 
+.my-skill {
+   padding: 100px; 
 
 
-html {
-    font-size: 20px;
+}
+.my-skill-portret {
+    float: right;
+
+}
+.skill-title {
+    position: absolute;
+    width: 403px;
+    height: 30px;
+    left: 386px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.skill-item {
+    width: 403px;
+    height: 30px;
+    left: 386px;
+    vertical-align: inherit;  
 }
 
 svg {
@@ -141,7 +180,7 @@ svg:hover {
     fill: black;
 }
 
-/* .test {
+.test {
   
     width: 100vw;
     height: 100vh;
@@ -165,25 +204,11 @@ svg:hover {
     position: relative;
     background: blueviolet;
     width: 100px;
-} */
+}
 .we {
     font-weight: bold;
     font-style: italic;
     font-family: "kronaone";
-}
-.ww {
-    font-family:'Russo One';
-}
-.wq {
-    font-family: 'Bebas Neue', cursive;
-}
-.test5 {
-    color:red;
-}
-@media (max-width:700px){
-    .test5 {
-        color:blue;
-    }
 }
 .galery-item-paper {
     position: relative;
@@ -191,8 +216,7 @@ svg:hover {
     height: 480px;
     background: url(Rectangle\ 7.2.png);
     float: left;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 .galery-item-laptop {
     position: relative;
