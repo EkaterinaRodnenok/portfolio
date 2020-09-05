@@ -150,25 +150,22 @@
 }
 .my-skill-portret {
     float: right;
-
+    width: 555px;
+    height: 450px;
 }
-.skill-title {
-    position: absolute;
-    width: 403px;
-    height: 30px;
-    left: 386px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    color: #000000;
+.skill-portret {
+    width: 555px;
+    height: 450px;
 }
-.skill-item {
-    width: 403px;
-    height: 30px;
-    left: 386px;
-    vertical-align: inherit;  
+.progress {
+    width: 445px;
+    height: 257px;
+    
+}
+.progress-bar {
+    width: 50%;
+    /* height: */
+    /* background: */
 }
 
 svg {
@@ -240,4 +237,27 @@ svg:hover {
 }
 .galery-shadow:hover {
     opacity:1;
+}
+
+.line {
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;   
+    margin-bottom: 30px;
+
+}
+.line-progress {
+    width: 349.36px;
+    height: 4px;
+    background: #34547A;
+}
+.skill {
+    width: 403px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-bottom: 70px;
+    margin-top: 100px;
 }
